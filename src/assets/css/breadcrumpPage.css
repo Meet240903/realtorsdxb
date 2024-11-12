@@ -1,0 +1,31 @@
+.breadcrump-page-section-container {
+  background-image: url("../images/aboutus/breadcrumpImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12rem;
+  text-align: center;
+  color: #fff;
+}
+
+.breadcrump-page-section-container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.breadcrump-page-section-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+@media (max-width:768px) {
+    .breadcrump-page-section-container {
+        padding: 2rem 1rem;
+    }
+    .breadcrump-page-section-container h1{
+        font-size: 35px;
+    }
+}
