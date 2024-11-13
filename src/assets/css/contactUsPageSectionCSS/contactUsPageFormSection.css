@@ -1,0 +1,71 @@
+.contact-us-page-form-section-container {
+  padding: 7rem;
+}
+
+.contact-us-page-form-section-content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 4rem 5rem 2rem 5rem;
+}
+
+.contact-us-page-form-section-content small {
+  color: #bda588;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.contact-us-page-form-section-content h2 {
+  font-size: 40px;
+  margin: 2rem 0;
+  color: #173e62;
+}
+
+.contact-us-page-form-section-content input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #173e62;
+}
+
+.contact-us-page-form-section-content textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #173e62;
+}
+
+.contact-us-page-form-section-content button {
+  width: 100%;
+  background-color: #017ec3;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  padding: 15px;
+  border-radius: 3px;
+  letter-spacing: 0.2rem;
+  transition: 0.3s ease;
+}
+
+.contact-us-page-form-section-content button:hover {
+  background-color: #fff;
+  color: #017ec3;
+  border-color: #bda588;
+}
+
+@media (max-width: 768px) {
+  .contact-us-page-form-section-container {
+    padding: 3rem 1rem;
+  }
+  .contact-us-page-form-section-content {
+    padding: 20px;
+  }
+
+  .contact-us-page-form-section-content h2 {
+    font-size: 30px;
+  }
+}
