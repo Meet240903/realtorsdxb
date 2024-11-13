@@ -1,0 +1,85 @@
+.footer-page-section-container {
+  padding: 7rem 7rem 2rem 7rem;
+  background-image: url("../images/aboutus/paymentMethodImgs/paymentMethodSectionBgImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.footer-page-section-title {
+  margin-bottom: 3rem;
+}
+
+.footer-page-section-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-page-section-content-box small {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.footer-page-section-content-box h2 {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 1rem 0 2rem 0;
+}
+
+.footer-page-section-content-box input {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.footer-page-section-content-box button {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #017ec3;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.footer-page-section-content-box button:hover {
+  background-color: #017ec3;
+  color: #fff;
+  border-color: #ac8d68;
+}
+
+.footer-page-bottom-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #b0b9c1;
+}
+
+@media (max-width: 768px) {
+  .footer-page-section-container {
+    padding: 3rem 1rem;
+  }
+  .footer-page-section-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-page-bottom-section-container {
+    flex-direction: column;
+  }
+  .footer-page-section-title h1{
+    font-size: 40px;
+  }
+  .footer-page-section-content-box h2 {
+    font-size: 22px;
+    margin: 1rem 0;
+  }
+}

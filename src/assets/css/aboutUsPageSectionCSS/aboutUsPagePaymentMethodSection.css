@@ -1,0 +1,55 @@
+.about-us-page-payment-method-section-container {
+  background-image: url("../../images/aboutus/paymentMethodImgs/paymentMethodSectionBgImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7rem;
+}
+
+.about-us-page-payment-method-section-title {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-page-payment-method-section-title p {
+  text-transform: uppercase;
+  color: #bda588;
+  font-size: 12px;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.about-us-page-payment-method-section-title h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 3rem;
+}
+
+.about-us-page-payment-method-section-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.about-us-page-payment-method-section-content p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-us-page-payment-method-section-container {
+    padding: 3rem 1rem;
+  }
+  .about-us-page-payment-method-section-title h2 {
+    font-size: 30px;
+  }
+  .about-us-page-payment-method-section-content {
+    flex-direction: column;
+  }
+}

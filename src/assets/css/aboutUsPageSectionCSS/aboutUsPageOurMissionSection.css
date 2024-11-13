@@ -1,0 +1,65 @@
+.about-us-page-our-mission-section-container {
+  padding: 7rem;
+  background-color: #f7f2ec;
+}
+
+.about-us-page-our-mission-section-content {
+  align-items: center;
+}
+
+.about-us-page-our-mission-section-right-content {
+  padding: 30px;
+}
+
+.about-us-page-our-mission-section-right-content span {
+  font-size: 12px;
+  text-transform: uppercase;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.3rem;
+  color: #bda588;
+  font-weight: bold;
+}
+
+.about-us-page-our-mission-section-right-content h2 {
+  color: #173e62;
+  font-size: 40px;
+  margin: 2rem 0;
+}
+
+.about-us-page-our-mission-section-right-content p {
+  color: #66717a;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-us-page-our-mission-section-right-content button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #bda588;
+  color: #bda588;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 0;
+  letter-spacing: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .about-us-page-our-mission-section-container {
+    padding: 3rem 1rem;
+  }
+  .about-us-page-our-mission-section-content {
+    gap: 4rem;
+  }
+  .about-us-page-our-mission-section-right-content,
+  .about-us-page-our-mission-section-left-content {
+    padding: 0;
+  }
+
+  .about-us-page-our-mission-section-right-content h2 {
+    font-size: 30px;
+  }
+  .about-us-page-our-mission-section-right-content p {
+    text-align: justify;
+  }
+}

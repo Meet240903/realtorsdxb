@@ -10,18 +10,28 @@ const Header = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const [activeLink, setActiveLink] = useState('home');
+
     return (
         <div className='header-page-section-container'>
             <div className='header-page-img-section-content'>
-                <Link to='/'>
+                <Link to='/' onClick={()=>setActiveLink('home')}>
                     <img src={headerLogo} className='img-fluid' alt='header-logo' />
                 </Link>
             </div>
             <div className={`header-page-section-right-content ${menuOpen ? 'open' : ''}`}>
-                <Link onClick={()=>setMenuOpen(false)} to='/'>Home</Link>
-                <Link onClick={()=>setMenuOpen(false)} to='/about-us'>How it works?</Link>
-                <Link onClick={()=>setMenuOpen(false)} to='/projects'>Projects</Link>
-                <Link onClick={()=>setMenuOpen(false)} to='/contact-us'>Contact us</Link>
+                <Link onClick={() => { setMenuOpen(false); setActiveLink('home') }} to='/'
+                    style={{ color: activeLink === 'home' ? '#bda588' : '' }}
+                >Home</Link>
+                <Link onClick={() => { setMenuOpen(false); setActiveLink('about-us') }} to='/about-us'
+                    style={{ color: activeLink === 'about-us' ? '#bda588' : '' }}
+                >How it works?</Link>
+                <Link onClick={() => { setMenuOpen(false); setActiveLink('projects') }} to='/projects'
+                    style={{ color: activeLink === 'projects' ? '#bda588' : '' }}
+                >Projects</Link>
+                <Link onClick={() => { setMenuOpen(false); setActiveLink('contact-us') }} to='/contact-us'
+                    style={{ color: activeLink === 'contact-us' ? '#bda588' : '' }}
+                >Contact us</Link>
             </div>
             <button className="menu-toggle-button" onClick={toggleMenu}>
                 &#9776; {/* Hamburger icon */}

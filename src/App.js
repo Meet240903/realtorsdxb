@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import ProjectsPage from "./components/ProjectsPage";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/projects' element={<ProjectsPage />} />
           <Route exact path='/contact-us' element={<ContactUs />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

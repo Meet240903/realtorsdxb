@@ -1,0 +1,99 @@
+.about-us-page-how-it-works-section-container {
+  padding: 7rem;
+}
+
+.about-us-page-how-it-works-section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-us-page-how-it-works-section-title h2 {
+  margin-bottom: 2rem;
+}
+
+.about-us-page-how-it-works-section-title p {
+  color: #606060;
+}
+
+.about-us-page-how-it-works-section-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.about-us-page-how-it-works-section-content-boxs {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+.about-us-page-how-it-works-section-content-boxs:hover {
+  box-shadow: none;
+}
+
+.about-us-page-how-it-works-section-content-boxs-span {
+  background-color: #5c6bc0;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 2px 15px;
+}
+
+.about-us-page-how-it-works-section-content-boxs-span p {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.about-us-page-how-it-works-section-content-boxs-icon {
+  max-width: 150px;
+  text-align: center;
+  background-color: #5c6bc012;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 50%;
+  padding: 50px 20px;
+}
+
+.about-us-page-how-it-works-section-content-boxs-icon img {
+  height: 50px;
+}
+
+.about-us-page-how-it-works-section-content-boxs-body {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.about-us-page-how-it-works-section-content-boxs-body h4 {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+
+.about-us-page-how-it-works-section-content-boxs-body p {
+  line-height: 2rem;
+  color: #606060;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-us-page-how-it-works-section-container {
+    padding: 3rem 1rem;
+  }
+  .about-us-page-how-it-works-section-content {
+    flex-direction: column;
+  }
+  .about-us-page-how-it-works-section-content-boxs {
+    width: 100%;
+  }
+  .about-us-page-how-it-works-section-content-boxs-span{
+    padding: 2px 20px;
+  }
+  .about-us-page-how-it-works-section-content-boxs-icon img{
+    height: 40px;
+  }
+  .about-us-page-how-it-works-section-content-boxs-body{
+    padding: 0;
+  }
+}
