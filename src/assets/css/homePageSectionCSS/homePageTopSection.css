@@ -1,0 +1,156 @@
+.home-page-top-section-container {
+  position: relative;
+}
+
+.home-page-top-section-container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* slider animation code */
+@keyframes slideFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-from-bottom {
+  animation: slideFromBottom 0.8s ease-out;
+}
+
+.slide-from-right {
+  animation: slideFromRight 0.8s ease-out;
+}
+
+.home-page-top-section-body-content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  max-width: 600px;
+}
+
+.home-page-top-section-body-content small {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.home-page-top-section-body-content button {
+  text-transform: uppercase;
+  background-color: #bda588;
+  padding: 15px 20px;
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.home-page-top-section-body-content button:hover {
+  background-color: #c09b6f;
+}
+
+.home-page-top-section-body-content h1 {
+  color: #000;
+  font-size: 50px;
+  margin: 2rem 0;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.home-page-top-section-footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7rem;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-page-top-section-footer-left-content-phone-icon {
+  border: 1px solid #bda588;
+  border-radius: 50%;
+  padding: 18px 20px;
+}
+
+.home-page-top-section-phone-icon {
+  font-size: 30px;
+  font-weight: normal;
+  color: #bda588;
+}
+
+.home-page-top-section-footer-left-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.home-page-top-section-footer-left-content-body small {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.home-page-top-section-footer-left-content-body h3 {
+  font-size: 22px;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+}
+
+.home-page-top-section-footer-right-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.home-page-top-section-footer-right-content-slider-counter,
+.home-page-top-section-footer-right-content-slider-controls {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.home-page-top-section-footer-right-content-slider-left-control {
+  padding: 5px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.home-page-top-section-footer-right-content-slider-left-control:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+.home-page-top-section-slider-icon {
+  text-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
+.home-page-top-section-footer-right-content-slider-counter p {
+  margin: 0;
+}
+
+.home-page-top-section-hr {
+  width: 150px;
+  height: 3px; /* Adjust thickness as needed */
+  background-color: #fff; /* Set color for the line */
+  border: none; /* Remove default border */
+}

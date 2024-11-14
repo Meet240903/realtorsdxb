@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <div className='header-page-section-container'>
             <div className='header-page-img-section-content'>
-                <Link to='/' onClick={()=>setActiveLink('home')}>
+                <Link to='/' onClick={() => { setMenuOpen(false); setActiveLink('home') }}>
                     <img src={headerLogo} className='img-fluid' alt='header-logo' />
                 </Link>
             </div>
