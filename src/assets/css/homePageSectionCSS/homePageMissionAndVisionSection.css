@@ -1,0 +1,105 @@
+.home-page-mission-and-vision-section-container {
+  position: relative;
+  margin-top: 10rem;
+  overflow: hidden;
+}
+
+.home-page-mission-and-vision-section-title {
+  max-width: 600px;
+  padding: 0 0 0 7rem;
+}
+
+.home-page-mission-and-vision-section-title small {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #bda588;
+}
+
+.home-page-mission-and-vision-section-title h2 {
+  color: #173e62;
+  font-size: 36px;
+  margin: 2rem 0;
+}
+
+.home-page-mission-and-vision-section-right-img {
+  position: absolute;
+  top: 0;
+  right: -40%;
+  z-index: 2;
+}
+
+.home-page-mission-and-vision-section-right-img img,
+.home-page-mission-and-vision-section-left-img img {
+  height: 688px;
+}
+
+.home-page-mission-and-vision-section-content {
+  position: relative;
+  background-color: #f9f7f7;
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 5rem;
+}
+
+.home-page-mission-and-vision-section-left-img {
+  position: absolute;
+  top: 0;
+  left: -62%;
+}
+
+.home-page-mission-and-vision-section-inner-content {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.home-page-mission-and-vision-section-inner-content h4 {
+  color: #173e62;
+  font-size: 22px;
+  margin: 2rem 0;
+}
+
+.home-page-mission-and-vision-section-inner-content p {
+  color: #6d7880;
+  line-height: 2rem;
+  margin: 2rem 0;
+}
+
+.home-page-mission-and-vision-section-inner-content button {
+  background-color: #bda588;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  border-radius: 2px;
+  border: 1px solid #bda588;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.home-page-mission-and-vision-section-inner-content button:hover {
+  background-color: #c29968;
+}
+
+@media (max-width: 768px) {
+  .home-page-mission-and-vision-section-container {
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  .home-page-mission-and-vision-section-title {
+    padding: 0;
+  }
+  .home-page-mission-and-vision-section-title h2 {
+    font-size: 30px;
+    line-height: 2.4rem;
+  }
+  .home-page-mission-and-vision-section-left-img,
+  .home-page-mission-and-vision-section-right-img {
+    display: none;
+  }
+  .home-page-mission-and-vision-section-content {
+    margin: 3rem 0;
+    padding: 20px;
+  }
+}

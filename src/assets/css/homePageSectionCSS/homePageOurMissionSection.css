@@ -1,0 +1,85 @@
+.home-page-our-mission-section-container {
+  padding: 1rem 7rem;
+}
+
+.home-page-our-mission-section-title-left-content small {
+  font-size: 12px;
+  color: #bda588;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.home-page-our-mission-section-title-left-content h2 {
+  color: #173e62;
+  margin-top: 1.5rem;
+  font-size: 40px;
+}
+
+.home-page-our-mission-section-title-right-content p {
+  font-size: 16px;
+  color: #6d7880;
+  line-height: 1.8rem;
+}
+
+.home-page-our-mission-section-content {
+  display: flex;
+  gap: 50px;
+  padding: 0 2rem;
+  margin: 5rem 0;
+}
+
+.home-page-our-mission-section-inner-content {
+  text-align: center;
+}
+
+.home-page-our-mission-section-inner-content img {
+  margin-bottom: 2rem;
+}
+
+.home-page-our-mission-section-inner-content h4 {
+  color: #173e62;
+  margin-bottom: 1rem;
+}
+
+.home-page-our-mission-section-inner-content p {
+  color: #6d7880;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+.home-page-our-mission-section-inner-content button {
+  color: #bda588;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-bottom: 1px solid #bda588;
+  background-color: transparent;
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.home-page-our-mission-section-inner-content button:hover {
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .home-page-our-mission-section-container {
+    padding: 1rem;
+  }
+  .home-page-our-mission-section-title-left-content h2 {
+    margin: 2rem 0;
+    font-size: 30px;
+  }
+  .home-page-our-mission-section-title-right-content p {
+    text-align: justify;
+  }
+  .home-page-our-mission-section-content {
+    padding: 0;
+    flex-direction: column;
+  }
+}
