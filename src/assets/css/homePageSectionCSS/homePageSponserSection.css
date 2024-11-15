@@ -1,0 +1,36 @@
+.home-page-sponser-section-container {
+  padding: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-page-sponser-section-sponser-boxs {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 3rem 20px;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.home-page-sponser-section-sponser-boxs:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .home-page-sponser-section-container {
+    display: grid;
+    padding: 3rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .home-page-sponser-section-sponser-boxs {
+    padding: 3rem 20px;
+    width: 150px;
+  }
+  .home-page-sponser-section-sponser-boxs img {
+    height: 30px;
+  }
+}

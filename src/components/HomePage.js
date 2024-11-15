@@ -5,6 +5,8 @@ import HomePageOurMissionSection from './homePageSections/HomePageOurMissionSect
 import HomePageFeaturedProjectSection from './homePageSections/HomePageFeaturedProjectSection'
 import HomePageInvestmentSection from './homePageSections/HomePageInvestmentSection'
 import HomePageTestimonialSection from './homePageSections/HomePageTestimonialSection'
+import HomePageEnquirySection from './homePageSections/HomePageEnquirySection'
+import HomePageSponserSection from './homePageSections/HomePageSponserSection'
 
 const HomePage = () => {
     return (
@@ -15,6 +17,8 @@ const HomePage = () => {
             <HomePageFeaturedProjectSection />
             <HomePageInvestmentSection />
             <HomePageTestimonialSection />
+            <HomePageEnquirySection />
+            <HomePageSponserSection />
         </>
     )
 }

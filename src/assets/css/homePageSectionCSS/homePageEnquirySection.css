@@ -1,0 +1,80 @@
+.home-page-enquiry-section-container {
+  background-color: #173e62;
+  align-items: center;
+}
+
+.home-page-enquiry-section-left-content img {
+  height: 680px;
+  width: 90%;
+}
+
+.home-page-enquiry-section-right-content {
+  padding: 0 5rem 0 3rem;
+}
+
+.home-page-enquiry-section-right-content small {
+  font-size: 12px;
+  color: #bda588;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.home-page-enquiry-section-right-content h2 {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.home-page-enquiry-section-right-content-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 4rem;
+}
+
+.home-page-enquiry-section-right-content-form input,
+select {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+.home-page-enquiry-section-right-content-form-button {
+  grid-column: span 2;
+  width: 100%;
+  text-align: center;
+}
+
+.home-page-enquiry-section-right-content-form-button button {
+  background-color: #017ec3;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.home-page-enquiry-section-right-content-form-button button:hover {
+  background-color: #4fb0e4;
+}
+
+@media (max-width: 768px) {
+  .home-page-enquiry-section-left-content {
+    display: none;
+  }
+  .home-page-enquiry-section-right-content {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .home-page-enquiry-section-right-content-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
