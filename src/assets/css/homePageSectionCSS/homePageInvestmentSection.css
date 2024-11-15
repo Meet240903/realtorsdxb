@@ -1,0 +1,87 @@
+.home-page-investment-section-container {
+  padding: 7rem;
+  background-image: url("../../images/home/investmentSectionImgs/bgImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  position: relative;
+}
+
+.home-page-investment-section-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Adjust the opacity to make it darker or lighter */
+  z-index: -1;
+}
+
+.home-page-investment-section-title {
+  text-align: center;
+}
+
+.home-page-investment-section-title small {
+  font-size: 12px;
+  color: #bda588;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.home-page-investment-section-title h1 {
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.home-page-investment-section-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 5rem;
+}
+
+.home-page-investment-section-content-boxs {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 40px 30px;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.home-page-investment-section-content-boxs h4 {
+  margin: 1rem 0;
+}
+
+.home-page-investment-section-content-boxs p {
+  color: #b0b9c1;
+  margin: 0;
+  font-size: 14px;
+  line-height: 2rem;
+}
+
+.home-page-investment-section-content-boxs:hover {
+  color: #fff;
+  background-color: #017ec3;
+}
+
+.home-page-investment-section-content-boxs:hover p {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .home-page-investment-section-container {
+    padding: 3rem 1rem;
+  }
+  .home-page-investment-section-content {
+    grid-template-columns: 1fr;
+  }
+}
