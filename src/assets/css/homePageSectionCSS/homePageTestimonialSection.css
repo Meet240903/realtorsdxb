@@ -141,7 +141,7 @@
 
   .home-page-testimonial-section-content-slider-boxs {
     width: 100%; /* Adjust width for mobile view */
-    height: 100%;
+    height: 400px;
     position: relative;
   }
 
