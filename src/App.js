@@ -5,6 +5,7 @@ import AboutUs from "./components/AboutUs";
 import ProjectsPage from "./components/ProjectsPage";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import ProjectDetailsPage from "./components/ProjectDetailsPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/about-us' element={<AboutUs />} />
           <Route exact path='/projects' element={<ProjectsPage />} />
           <Route exact path='/contact-us' element={<ContactUs />} />
+          <Route exact path='/projects/:slugs' element={<ProjectDetailsPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

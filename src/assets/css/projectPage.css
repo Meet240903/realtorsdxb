@@ -1,0 +1,131 @@
+.project-page-section-container {
+  padding: 7rem;
+}
+
+.project-page-filter-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.project-page-filter-section-content-boxs {
+  width: 250px;
+  padding: 0 10px;
+}
+
+.project-page-filter-section-content-boxs p {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.project-page-filter-section-content-boxs select {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.03);
+  color: #66717a;
+  border-color: rgba(0, 0, 0, 0.03);
+  padding: 15px 20px;
+}
+
+.project-page-filter-section-content-boxs select:hover {
+  background-color: rgba(96, 92, 92, 0.03);
+}
+
+.project-page-filter-section-content-boxs button {
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #bda588;
+  border: 1px solid #bda588;
+  letter-spacing: 0.1rem;
+  border-radius: 2px;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+.project-page-filter-section-content-boxs button:hover {
+  background-color: #cba371;
+}
+
+.project-page-section-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.project-page-section-content-boxs {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.project-page-section-content-boxs::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 61, 105, 0.4); /* Adjust opacity for overlay */
+  z-index: 1;
+}
+
+.project-page-section-content-boxs-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: 2; /* Place content above the overlay */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.project-page-section-content-boxs-body-left-content h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-page-section-content-boxs-body-left-content p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.project-page-section-content-boxs-body-right-content h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  opacity: 0.2;
+}
+
+.project-page-section-content-boxs:hover h1 {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .project-page-section-container {
+    padding: 3rem 1rem;
+  }
+  .project-page-filter-section-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .project-page-filter-section-content-boxs{
+    width: 100%;
+  }
+  .project-page-section-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .project-page-section-content-boxs {
+    width: 100%;
+  }
+}
