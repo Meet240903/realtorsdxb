@@ -3,6 +3,8 @@ import ProjectDetailsTopSection from './projectsDetailsPageSections/ProjectDetai
 import { useParams } from 'react-router-dom'
 import projectData from '../data/ProjectsData';
 import ProjectDetailsOverviewSection from './projectsDetailsPageSections/ProjectDetailsOverviewSection';
+import ProjectDetailsHeader from './projectsDetailsPageSections/ProjectDetailsHeader';
+import ProjectDetailsAmenitiesSection from './projectsDetailsPageSections/ProjectDetailsAmenitiesSection';
 
 const ProjectDetailsPage = () => {
     const { slugs } = useParams();
@@ -11,7 +13,13 @@ const ProjectDetailsPage = () => {
     return (
         <>
             <ProjectDetailsTopSection title={data?.title} bgImg={data?.bgImg} />
-            <ProjectDetailsOverviewSection sectionData={data?.overviewSectionData} />
+            <ProjectDetailsHeader />
+            <div id='overview'>
+                <ProjectDetailsOverviewSection sectionData={data?.overviewSectionData} />
+            </div>
+            <div id='amenities'>
+                <ProjectDetailsAmenitiesSection sectionData={data?.amenitiesSectionData} />
+            </div>
         </>
     )
 }
