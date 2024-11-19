@@ -15,6 +15,19 @@ import amenitiesSectionImg10 from '../assets/images/projectDetails/amenitiesSect
 import amenitiesSectionImg11 from '../assets/images/projectDetails/amenitiesSectionImgs/sectionImg11.png'
 import amenitiesSectionImg12 from '../assets/images/projectDetails/amenitiesSectionImgs/sectionImg12.png'
 
+import extraordinarySportzImg1 from '../assets/images/projectDetails/extraordinarySectionImgs/sportz/sectionImg1.webp'
+import extraordinarySportzImg2 from '../assets/images/projectDetails/extraordinarySectionImgs/sportz/sectionImg2.webp'
+import extraordinarySportzImg3 from '../assets/images/projectDetails/extraordinarySectionImgs/sportz/sectionImg3.webp'
+import extraordinarySportzImg4 from '../assets/images/projectDetails/extraordinarySectionImgs/sportz/sectionImg4.jpg'
+import extraordinarySportzImg5 from '../assets/images/projectDetails/extraordinarySectionImgs/sportz/sectionImg5.jpg'
+
+import extraordinaryHartlandIIImg1 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg1.webp'
+import extraordinaryHartlandIIImg2 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg2.webp'
+import extraordinaryHartlandIIImg3 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg3.webp'
+import extraordinaryHartlandIIImg4 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg4.webp'
+import extraordinaryHartlandIIImg5 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg5.webp'
+import extraordinaryHartlandIIImg6 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg6.webp'
+
 const projectData = [
     {
         sectionImg: projectImg1,
@@ -49,7 +62,17 @@ const projectData = [
                 { sectionImg: amenitiesSectionImg1, title: "Basketball court" },
                 { sectionImg: amenitiesSectionImg7, title: "Fitness Center" },
             ]
-        }
+        },
+        extraordinarySectionData: [
+            { title: 'Badminton Court', sectionImg: extraordinarySportzImg1 },
+            { title: 'Cinema', sectionImg: extraordinarySportzImg2 },
+            { title: 'Cricket Pitch', sectionImg: extraordinarySportzImg3 },
+            { title: 'Aquatic Gym', sectionImg: extraordinarySportzImg4 },
+            { title: 'Community Views', sectionImg: extraordinarySportzImg5 },
+            { title: 'Badminton Court', sectionImg: extraordinarySportzImg1 },
+            { title: 'Cinema', sectionImg: extraordinarySportzImg2 },
+            { title: 'Cricket Pitch', sectionImg: extraordinarySportzImg3 },
+        ]
     },
     {
         sectionImg: projectImg2,
@@ -87,7 +110,18 @@ const projectData = [
                 { sectionImg: amenitiesSectionImg10, title: "AC Community Hall" },
                 { sectionImg: amenitiesSectionImg7, title: "Fitness Center" },
             ]
-        }
+        },
+        extraordinarySectionData: [
+            { title: 'Retail Space', sectionImg: extraordinaryHartlandIIImg1 },
+            { title: 'Boardwalk', sectionImg: extraordinaryHartlandIIImg2 },
+            { title: 'Gym', sectionImg: extraordinaryHartlandIIImg3 },
+            { title: 'Schools', sectionImg: extraordinaryHartlandIIImg4 },
+            { title: 'Lagoons', sectionImg: extraordinaryHartlandIIImg5 },
+            { title: 'Parks', sectionImg: extraordinaryHartlandIIImg6 },
+            { title: 'Retail Space', sectionImg: extraordinaryHartlandIIImg1 },
+            { title: 'Boardwalk', sectionImg: extraordinaryHartlandIIImg2 },
+            { title: 'Gym', sectionImg: extraordinaryHartlandIIImg3 },
+        ]
     },
     {
         sectionImg: projectImg3,

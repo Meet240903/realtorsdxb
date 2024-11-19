@@ -1,0 +1,56 @@
+.project-details-page-extraordinary-section-container {
+  padding: 7rem;
+}
+
+.project-details-page-extraordinary-section-title {
+  text-align: center;
+}
+
+.project-details-page-extraordinary-section-title h2 {
+  text-transform: uppercase;
+  color: #173e62;
+  font-size: 40px;
+}
+
+.project-details-page-extraordinary-section-content-box {
+  text-align: center;
+}
+
+.project-details-page-extraordinary-section-content-box img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-details-page-extraordinary-section-content-box p{
+    color: #6e7981;
+    margin-top: 1rem;
+}
+
+.project-details-page-extraordinary-section-content-slider {
+  margin-top: 4rem;
+}
+.swiper-pagination-bullet {
+  background: #cccccc;
+  opacity: 0.8;
+  width: 6px;
+  height: 6px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .project-details-page-extraordinary-section-container {
+    padding: 3rem 1rem;
+  }
+  .project-details-page-extraordinary-section-title h2 {
+    font-size: 30px;
+  }
+  .project-details-page-extraordinary-section-content-box img{
+    height: 350px;
+    width: 280px;
+  }
+}
