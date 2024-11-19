@@ -1,0 +1,26 @@
+.top-redirect-button-section {
+  width: fit-content;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.top-redirect-button-section button {
+  background-color: #bda588;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #bda588;
+  border-radius: 3px;
+  padding: 20px 25px;
+}
+
+.top-redirect-button-section button:hover {
+  background-color: #c7a06f;
+}
+
+@media (max-width: 768px) {
+  .top-redirect-button-section {
+    display: none;
+  }
+}

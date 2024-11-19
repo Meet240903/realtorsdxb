@@ -32,6 +32,67 @@ import locationImg1 from '../assets/images/projectDetails/LocationImgs/locationI
 import locationImg2 from '../assets/images/projectDetails/LocationImgs/locationImg2.webp'
 import locationImg3 from '../assets/images/projectDetails/LocationImgs/locationImg3.webp'
 
+import sportzGallerySectionImg1 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg1.jpg'
+import sportzGallerySectionImg2 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg2.jpg'
+import sportzGallerySectionImg3 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg3.jpg'
+import sportzGallerySectionImg4 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg4.jpg'
+import sportzGallerySectionImg5 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg5.jpg'
+import sportzGallerySectionImg6 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg6.jpg'
+import sportzGallerySectionImg7 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg7.webp'
+import sportzGallerySectionImg8 from '../assets/images/projectDetails/gallaryImgs/sportz/main/sectionImg8.jpg'
+import sportzGallerySectionImg9 from '../assets/images/projectDetails/gallaryImgs/sportz/sports/sectionImg1.webp'
+import sportzGallerySectionImg10 from '../assets/images/projectDetails/gallaryImgs/sportz/sports/sectionImg2.webp'
+import sportzGallerySectionImg11 from '../assets/images/projectDetails/gallaryImgs/sportz/sports/sectionImg3.webp'
+import sportzGallerySectionImg12 from '../assets/images/projectDetails/gallaryImgs/sportz/sports/sectionImg4.jpg'
+
+import hartLandIIGallerySectionImg1 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg1.webp'
+import hartLandIIGallerySectionImg2 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg2.webp'
+import hartLandIIGallerySectionImg3 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg3.webp'
+import hartLandIIGallerySectionImg4 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg4.webp'
+import hartLandIIGallerySectionImg5 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg5.webp'
+import hartLandIIGallerySectionImg6 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg6.webp'
+import hartLandIIGallerySectionImg7 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg7.webp'
+import hartLandIIGallerySectionImg8 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg8.webp'
+import hartLandIIGallerySectionImg9 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg9.webp'
+import hartLandIIGallerySectionImg10 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg10.webp'
+import hartLandIIGallerySectionImg11 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg11.webp'
+import hartLandIIGallerySectionImg12 from '../assets/images/projectDetails/gallaryImgs/hartLandII/exterior/sectionImg12.webp'
+import hartLandIIGallerySectionImg13 from '../assets/images/projectDetails/gallaryImgs/hartLandII/interior/sectionImg1.webp'
+import hartLandIIGallerySectionImg14 from '../assets/images/projectDetails/gallaryImgs/hartLandII/interior/sectionImg2.webp'
+import hartLandIIGallerySectionImg15 from '../assets/images/projectDetails/gallaryImgs/hartLandII/interior/sectionImg3.webp'
+import hartLandIIGallerySectionImg16 from '../assets/images/projectDetails/gallaryImgs/hartLandII/interior/sectionImg4.webp'
+import hartLandIIGallerySectionImg17 from '../assets/images/projectDetails/gallaryImgs/hartLandII/interior/sectionImg5.webp'
+
+import aquaDimoreGallerySectionImg1 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg1.webp'
+import aquaDimoreGallerySectionImg2 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg2.webp'
+import aquaDimoreGallerySectionImg3 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg3.webp'
+import aquaDimoreGallerySectionImg4 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg4.jpeg'
+import aquaDimoreGallerySectionImg5 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg5.jpeg'
+import aquaDimoreGallerySectionImg6 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg6.jpeg'
+import aquaDimoreGallerySectionImg7 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg7.jpeg'
+import aquaDimoreGallerySectionImg8 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg8.jpeg'
+import aquaDimoreGallerySectionImg9 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/internal/sectionImg9.jpeg'
+import aquaDimoreGallerySectionImg10 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/external/sectionImg1.webp'
+import aquaDimoreGallerySectionImg11 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/external/sectionImg2.webp'
+import aquaDimoreGallerySectionImg12 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/external/sectionImg3.jpeg'
+import aquaDimoreGallerySectionImg13 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/external/sectionImg4.jpeg'
+import aquaDimoreGallerySectionImg14 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/external/sectionImg5.jpeg'
+import aquaDimoreGallerySectionImg15 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg1.webp'
+import aquaDimoreGallerySectionImg16 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg2.webp'
+import aquaDimoreGallerySectionImg17 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg3.webp'
+import aquaDimoreGallerySectionImg18 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg4.webp'
+import aquaDimoreGallerySectionImg19 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg5.webp'
+import aquaDimoreGallerySectionImg20 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg6.webp'
+import aquaDimoreGallerySectionImg21 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg7.webp'
+import aquaDimoreGallerySectionImg22 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg8.jpeg'
+import aquaDimoreGallerySectionImg23 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg9.jpeg'
+import aquaDimoreGallerySectionImg24 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg10.jpeg'
+import aquaDimoreGallerySectionImg25 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg11.jpeg'
+import aquaDimoreGallerySectionImg26 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg12.jpeg'
+import aquaDimoreGallerySectionImg27 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg13.jpeg'
+import aquaDimoreGallerySectionImg28 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg14.jpeg'
+import aquaDimoreGallerySectionImg29 from '../assets/images/projectDetails/gallaryImgs/aquaDimore/amenities/sectionImg15.jpeg'
+
 const projectData = [
     {
         sectionImg: projectImg1,
@@ -78,6 +139,37 @@ const projectData = [
             { title: 'Cinema', sectionImg: extraordinarySportzImg2 },
             { title: 'Cricket Pitch', sectionImg: extraordinarySportzImg3 },
         ],
+        gallerySectionData: [
+            {
+                tabTitle: "Main",
+                contentData: [
+                    { sectionImg: sportzGallerySectionImg1 },
+                    { sectionImg: sportzGallerySectionImg2 },
+                    { sectionImg: sportzGallerySectionImg3 },
+                    { sectionImg: sportzGallerySectionImg4 },
+                    { sectionImg: sportzGallerySectionImg5 },
+                    { sectionImg: sportzGallerySectionImg6 },
+                    { sectionImg: sportzGallerySectionImg7 },
+                    { sectionImg: sportzGallerySectionImg8 },
+                ]
+            },
+            {
+                tabTitle: "Sports",
+                contentData: [
+                    { sectionImg: sportzGallerySectionImg9 },
+                    { sectionImg: sportzGallerySectionImg10 },
+                    { sectionImg: sportzGallerySectionImg11 },
+                    { sectionImg: sportzGallerySectionImg12 },
+                ]
+            },
+        ],
+        paymentPlanSectionData: {
+            roi: '8%',
+            downPayment: '20%',
+            duringContruction: '45%',
+            onHandover: '35%',
+            dldFee: '4%'
+        }
     },
     {
         sectionImg: projectImg2,
@@ -127,7 +219,43 @@ const projectData = [
             { title: 'Retail Space', sectionImg: extraordinaryHartlandIIImg1 },
             { title: 'Boardwalk', sectionImg: extraordinaryHartlandIIImg2 },
             { title: 'Gym', sectionImg: extraordinaryHartlandIIImg3 },
-        ]
+        ],
+        gallerySectionData: [
+            {
+                tabTitle: "Exterior",
+                contentData: [
+                    { sectionImg: hartLandIIGallerySectionImg1 },
+                    { sectionImg: hartLandIIGallerySectionImg2 },
+                    { sectionImg: hartLandIIGallerySectionImg3 },
+                    { sectionImg: hartLandIIGallerySectionImg4 },
+                    { sectionImg: hartLandIIGallerySectionImg5 },
+                    { sectionImg: hartLandIIGallerySectionImg6 },
+                    { sectionImg: hartLandIIGallerySectionImg7 },
+                    { sectionImg: hartLandIIGallerySectionImg8 },
+                    { sectionImg: hartLandIIGallerySectionImg9 },
+                    { sectionImg: hartLandIIGallerySectionImg10 },
+                    { sectionImg: hartLandIIGallerySectionImg11 },
+                    { sectionImg: hartLandIIGallerySectionImg12 },
+                ]
+            },
+            {
+                tabTitle: "Interior",
+                contentData: [
+                    { sectionImg: hartLandIIGallerySectionImg13 },
+                    { sectionImg: hartLandIIGallerySectionImg14 },
+                    { sectionImg: hartLandIIGallerySectionImg15 },
+                    { sectionImg: hartLandIIGallerySectionImg16 },
+                    { sectionImg: hartLandIIGallerySectionImg17 },
+                ]
+            },
+        ],
+        paymentPlanSectionData: {
+            roi: '10%',
+            downPayment: '20%',
+            duringContruction: '60%',
+            onHandover: '20%',
+            dldFee: '4%'
+        }
     },
     {
         sectionImg: projectImg3,
@@ -163,6 +291,59 @@ const projectData = [
                 { sectionImg: amenitiesSectionImg10, title: "AC Community Hall" },
                 { sectionImg: amenitiesSectionImg7, title: "Fitness Center" },
             ]
+        },
+        gallerySectionData: [
+            {
+                tabTitle: "Internal",
+                contentData: [
+                    { sectionImg: aquaDimoreGallerySectionImg1 },
+                    { sectionImg: aquaDimoreGallerySectionImg2 },
+                    { sectionImg: aquaDimoreGallerySectionImg3 },
+                    { sectionImg: aquaDimoreGallerySectionImg4 },
+                    { sectionImg: aquaDimoreGallerySectionImg5 },
+                    { sectionImg: aquaDimoreGallerySectionImg6 },
+                    { sectionImg: aquaDimoreGallerySectionImg7 },
+                    { sectionImg: aquaDimoreGallerySectionImg8 },
+                    { sectionImg: aquaDimoreGallerySectionImg9 },
+                ]
+            },
+            {
+                tabTitle: "External",
+                contentData: [
+                    { sectionImg: aquaDimoreGallerySectionImg10 },
+                    { sectionImg: aquaDimoreGallerySectionImg11 },
+                    { sectionImg: aquaDimoreGallerySectionImg12 },
+                    { sectionImg: aquaDimoreGallerySectionImg13 },
+                    { sectionImg: aquaDimoreGallerySectionImg14 },
+                ]
+            },
+            {
+                tabTitle: "Amenities",
+                contentData: [
+                    { sectionImg: aquaDimoreGallerySectionImg15 },
+                    { sectionImg: aquaDimoreGallerySectionImg16 },
+                    { sectionImg: aquaDimoreGallerySectionImg17 },
+                    { sectionImg: aquaDimoreGallerySectionImg18 },
+                    { sectionImg: aquaDimoreGallerySectionImg19 },
+                    { sectionImg: aquaDimoreGallerySectionImg20 },
+                    { sectionImg: aquaDimoreGallerySectionImg21 },
+                    { sectionImg: aquaDimoreGallerySectionImg22 },
+                    { sectionImg: aquaDimoreGallerySectionImg23 },
+                    { sectionImg: aquaDimoreGallerySectionImg24 },
+                    { sectionImg: aquaDimoreGallerySectionImg25 },
+                    { sectionImg: aquaDimoreGallerySectionImg26 },
+                    { sectionImg: aquaDimoreGallerySectionImg27 },
+                    { sectionImg: aquaDimoreGallerySectionImg28 },
+                    { sectionImg: aquaDimoreGallerySectionImg29 },
+                ]
+            },
+        ],
+        paymentPlanSectionData: {
+            roi: '8%',
+            downPayment: '20%',
+            duringContruction: '50%',
+            onHandover: '6%',
+            dldFee: '24%'
         }
     },
 ]

@@ -8,6 +8,8 @@ import ProjectDetailsAmenitiesSection from './projectsDetailsPageSections/Projec
 import ProjectDetailsExtraordinarySection from './projectsDetailsPageSections/ProjectDetailsExtraordinarySection';
 import ProjectDetailsLocationSection from './projectsDetailsPageSections/ProjectDetailsLocationSection';
 import EnquirySection from './projectsDetailsPageSections/EnquirySection';
+import ProjectDetailsGallarySection from './projectsDetailsPageSections/ProjectDetailsGallarySection';
+import ProjectDetailsPaymentPlannSection from './projectsDetailsPageSections/ProjectDetailsPaymentPlannSection';
 
 const ProjectDetailsPage = () => {
     const { slugs } = useParams();
@@ -37,6 +39,12 @@ const ProjectDetailsPage = () => {
             {data?.extraordinarySectionData && (
                 <ProjectDetailsExtraordinarySection sectionData={data?.extraordinarySectionData} />
             )}
+            <div id='gallery'>
+                <ProjectDetailsGallarySection sectionData={data?.gallerySectionData} />
+            </div>
+            <div id='plans'>
+                <ProjectDetailsPaymentPlannSection sectionData={data?.paymentPlanSectionData} />
+            </div>
             <div id='location'>
                 <ProjectDetailsLocationSection sectionImg={data?.locationImg} />
             </div>

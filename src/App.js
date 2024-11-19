@@ -6,12 +6,14 @@ import ProjectsPage from "./components/ProjectsPage";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import ProjectDetailsPage from "./components/ProjectDetailsPage";
+import TopRedirectButton from "./components/TopRedirectButton";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
+        <TopRedirectButton />
         <Routes>
           <Route exact path='/' element={<HomePage />} />
           <Route exact path='/about-us' element={<AboutUs />} />

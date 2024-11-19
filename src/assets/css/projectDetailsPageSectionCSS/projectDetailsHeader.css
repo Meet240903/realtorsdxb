@@ -3,12 +3,13 @@
   align-items: center;
   justify-content: center;
   max-width: 950px;
-  position: absolute;
+  position: sticky;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  top: 700px;
+  top: 10px;
   padding: 2rem;
   gap: 50px;
-  left: 23%;
+  left: 20%;
+  z-index: 999;
   background-color: #fff;
   border-radius: 3px;
 }
@@ -33,5 +34,6 @@
     overflow-x: auto;
     align-items: flex-start;
     justify-content: flex-start;
+    position: absolute;
   }
 }

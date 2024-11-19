@@ -1,0 +1,91 @@
+.project-details-payment-plann-section-container {
+  padding: 3rem 14rem;
+}
+
+.project-details-payment-plann-section-title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.project-details-payment-plann-section-title h2 {
+  color: #173e62;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.project-details-payment-plann-section-left-content {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 0;
+}
+
+.project-details-payment-plann-section-right-inner-content {
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  column-gap: 150px;
+  margin: 0 auto !important;
+}
+
+.project-details-payment-plann-section-right-content-box {
+  width: 200px;
+}
+
+.project-details-payment-plann-section-right-content-box p {
+  text-align: right;
+  margin: 0;
+  font-weight: bold;
+}
+
+.project-details-payment-plann-section-right-content-box h1 {
+  color: #bda588;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.project-details-payment-plann-section-right-content-box small {
+  color: #66717a;
+}
+
+.project-details-payment-plann-section-left-content {
+  padding: 4rem 0;
+}
+
+.project-details-payment-plann-section-left-content h1 {
+  font-size: 6rem;
+  color: #bda588;
+  font-weight: bold;
+}
+
+.project-details-payment-plann-section-left-content p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .project-details-payment-plann-section-container {
+    padding: 3rem 1rem;
+  }
+  .project-details-payment-plann-section-title {
+    margin-bottom: 3rem;
+  }
+  .project-details-payment-plann-section-right-inner-content {
+    column-gap: 40px;
+  }
+  .project-details-payment-plann-section-right-content-box {
+    width: 120px;
+  }
+  .project-details-payment-plann-section-content {
+    gap: 30px;
+  }
+  .project-details-payment-plann-section-right-content-box h1 {
+    font-size: 50px;
+  }
+  .project-details-payment-plann-section-right-content-box p {
+    font-size: 14px;
+    text-align: left;
+  }
+}
