@@ -28,12 +28,17 @@ import extraordinaryHartlandIIImg4 from '../assets/images/projectDetails/extraor
 import extraordinaryHartlandIIImg5 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg5.webp'
 import extraordinaryHartlandIIImg6 from '../assets/images/projectDetails/extraordinarySectionImgs/hartLandII/sectionImg6.webp'
 
+import locationImg1 from '../assets/images/projectDetails/LocationImgs/locationImg1.webp'
+import locationImg2 from '../assets/images/projectDetails/LocationImgs/locationImg2.webp'
+import locationImg3 from '../assets/images/projectDetails/LocationImgs/locationImg3.webp'
+
 const projectData = [
     {
         sectionImg: projectImg1,
         slugs: 'sportz',
         title: "Sportz",
         location: "Sports City, Dubai",
+        locationImg: locationImg1,
         overviewSectionData: {
             sectionImg: projectImg1,
             mainContent: "Sportz by Danube Properties is a brand-new residential development that graces Dubai’s skyline with a diverse range of luxurious residences. This project stands as a beacon of futuristic living in a thriving and vibrant community. With its innovative and stylish architectural design, residents can immerse themselves in breathtaking green landscapes. This address redefines the concept of upscale living, offering leisure and well-being experiences that are truly engaging.",
@@ -72,13 +77,14 @@ const projectData = [
             { title: 'Badminton Court', sectionImg: extraordinarySportzImg1 },
             { title: 'Cinema', sectionImg: extraordinarySportzImg2 },
             { title: 'Cricket Pitch', sectionImg: extraordinarySportzImg3 },
-        ]
+        ],
     },
     {
         sectionImg: projectImg2,
         slugs: 'hart-land-ii',
         title: "Hart land II",
         location: "MBR City, Dubai",
+        locationImg: locationImg2,
         bgImg: topSectionBgImg,
         overviewSectionData: {
             sectionImg: projectImg2,
@@ -128,6 +134,7 @@ const projectData = [
         slugs: 'aqua-dimore',
         title: "Aqua Dimore",
         location: "Dubai Science Park, Dubai, UAE",
+        locationImg: locationImg3,
         overviewSectionData: {
             sectionImg: projectImg3,
             mainContent: "Experience a new realm of luxury living with Vincitore Aqua Dimore at Dubai Science Park, an exquisite project by Vincitore Real Estate with luxury studios, 1 & 2 bedroom apartments, and 2 and 3 bedroom aqua villas with designer private pools. This development promises to be a grand new landmark on the horizon, offering a unique and opulent lifestyle in the heart of a vibrant city. It is not just a residence; it's an invitation to reimagine experiential living in your private oasis.",

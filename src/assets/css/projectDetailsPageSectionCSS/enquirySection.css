@@ -1,0 +1,46 @@
+.project-details-enquiry-section-container {
+  padding: 7rem;
+}
+
+.project-details-enquiry-section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.project-details-enquiry-section-title h2 {
+  color: #173e62;
+  font-size: 40px;
+}
+
+.project-details-enquiry-section-title p {
+  color: #6e7981;
+}
+
+.project-details-enquiry-section-form {
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.project-details-enquiry-section-form input {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #173e62;
+  padding: 10px 20px;
+  color: #6e7981;
+}
+
+@media (max-width: 768px) {
+  .project-details-enquiry-section-container {
+    padding: 3rem 1rem;
+  }
+  .project-details-enquiry-section-title h2{
+    font-size: 30px;
+  }
+  .project-details-enquiry-section-form {
+    display: flex;
+    flex-direction: column;
+  }
+}

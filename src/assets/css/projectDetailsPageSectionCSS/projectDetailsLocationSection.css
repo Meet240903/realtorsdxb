@@ -1,0 +1,25 @@
+.project-details-location-section-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.project-details-location-section-container h2 {
+  color: #173e62;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.project-details-location-section-container img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .project-details-location-section-container {
+    padding: 3rem 1rem;
+    margin-top: 1rem;
+  }
+  .project-details-location-section-container h2 {
+    font-size: 30px;
+  }
+}
