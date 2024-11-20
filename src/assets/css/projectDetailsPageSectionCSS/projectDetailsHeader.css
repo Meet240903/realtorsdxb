@@ -35,5 +35,6 @@
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
+    z-index: 2;
   }
 }
