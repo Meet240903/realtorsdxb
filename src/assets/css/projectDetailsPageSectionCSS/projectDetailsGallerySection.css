@@ -152,6 +152,7 @@
 
 .project-details-gallery-section-modal img {
   height: 600px;
+  cursor: pointer;
 }
 
 .project-details-gallery-section-modal p {
