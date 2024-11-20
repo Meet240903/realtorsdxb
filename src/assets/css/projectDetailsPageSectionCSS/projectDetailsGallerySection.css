@@ -32,6 +32,55 @@
   padding-bottom: 10px;
 }
 
+/* Animation for fade-in and fade-out */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  background-color: #f7f2ec;
+  border: 1px solid #bda588;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button.active {
+  background-color: #bda588;
+  color: #fff;
+}
+
+.pagination button:hover:not(.active):not([disabled]) {
+  background-color: #e4d5c3;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.prev-btn,
+.next-btn {
+  font-weight: bold;
+}
+
 .project-details-gallary-section-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -80,6 +129,36 @@
   font-size: 2rem;
 }
 
+/* img modal css */
+.project-details-gallery-section-modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  padding: 5rem 0;
+  text-align: center;
+  z-index: 1100;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-close-icon {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.project-details-gallery-section-modal img {
+  height: 600px;
+}
+
+.project-details-gallery-section-modal p {
+  color: #fff;
+  margin-top: 1rem;
+}
+
 @media (max-width: 768px) {
   .project-details-gallary-section-container {
     padding: 3rem 1rem;
@@ -89,5 +168,16 @@
   }
   .project-details-gallary-section-content {
     grid-template-columns: 1fr;
+  }
+  .project-details-gallery-section-modal {
+    padding: 8rem 0;
+  }
+  .project-details-gallery-section-modal img {
+    height: 400px;
+  }
+  .modal-close-icon {
+    font-size: 20px;
+    right: 10px;
+    top: 80px;
   }
 }
