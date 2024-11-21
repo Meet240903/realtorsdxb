@@ -3,6 +3,7 @@ import '../../assets/css/homePageSectionCSS/homePageFeaturedProjectSection.css';
 import projectData from '../../data/ProjectsData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const HomePageFeaturedProjectSection = () => {
     const [projectCounter, setProjectCounter] = useState(0);
@@ -39,15 +40,17 @@ const HomePageFeaturedProjectSection = () => {
             <div className='home-page-featured-project-section-content'>
                 {
                     projectData?.map((data, index) => (
-                        <div className='home-page-featured-project-section-content-boxs' key={index}>
-                            <div className='home-page-featured-project-section-content-boxs-img'>
-                                <img src={data?.sectionImg} className='img-fluid' alt='section-img' />
+                        <Link to={`/projects/${data?.slugs}`} style={{textDecoration:'none'}} key={index} target='_top'>
+                            <div className='home-page-featured-project-section-content-boxs'>
+                                <div className='home-page-featured-project-section-content-boxs-img'>
+                                    <img src={data?.sectionImg} className='img-fluid' alt='section-img' />
+                                </div>
+                                <div className='home-page-featured-project-section-content-boxs-body'>
+                                    <h4>{data?.title}</h4>
+                                    <p>{data?.location}</p>
+                                </div>
                             </div>
-                            <div className='home-page-featured-project-section-content-boxs-body'>
-                                <h4>{data?.title}</h4>
-                                <p>{data?.location}</p>
-                            </div>
-                        </div>
+                        </Link>
                     ))
                 }
             </div>
